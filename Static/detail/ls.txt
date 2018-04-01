@@ -1,0 +1,2535 @@
+[Func]	0x804958c	.init_proc
+[Func]	0x80495c0	.__ctype_toupper_loc
+[Func]	0x80495d0	.getpwnam
+[Func]	0x80495e0	.raise
+[Func]	0x80495f0	.strstr
+[Func]	0x8049600	.strcmp
+[Func]	0x8049610	.open64
+[Func]	0x8049620	.__mempcpy_chk
+[Func]	0x8049630	.getpwuid
+[Func]	0x8049640	.fflush
+[Func]	0x8049650	._exit
+[Func]	0x8049660	.sigprocmask
+[Func]	0x8049670	.dirfd
+[Func]	0x8049680	.wcwidth
+[Func]	0x8049690	.memmove
+[Func]	0x80496a0	._setjmp
+[Func]	0x80496b0	.free
+[Func]	0x80496c0	.memcpy
+[Func]	0x80496d0	.mbsinit
+[Func]	0x80496e0	.clock_gettime
+[Func]	0x80496f0	.__strtoull_internal
+[Func]	0x8049700	.fclose
+[Func]	0x8049710	.fseeko64
+[Func]	0x8049720	.signal
+[Func]	0x8049730	.memcmp
+[Func]	0x8049740	.gettimeofday
+[Func]	0x8049750	._obstack_newchunk
+[Func]	0x8049760	.dcgettext
+[Func]	0x8049770	.mktime
+[Func]	0x8049780	.stpcpy
+[Func]	0x8049790	.__stack_chk_fail
+[Func]	0x80497a0	._obstack_begin
+[Func]	0x80497b0	.sigismember
+[Func]	0x80497c0	.fgetfilecon
+[Func]	0x80497d0	.fflush_unlocked
+[Func]	0x80497e0	.iswcntrl
+[Func]	0x80497f0	.textdomain
+[Func]	0x8049800	.readlink
+[Func]	0x8049810	.fnmatch
+[Func]	0x8049820	.iswprint
+[Func]	0x8049830	.ioctl
+[Func]	0x8049840	.acl_get_tag_type
+[Func]	0x8049850	.fwrite
+[Func]	0x8049860	.__fxstat64
+[Func]	0x8049870	.__ctype_get_mb_cur_max
+[Func]	0x8049880	.acl_extended_file
+[Func]	0x8049890	.strcpy
+[Func]	0x80498a0	.__fpending
+[Func]	0x80498b0	.wcstombs
+[Func]	0x80498c0	.mbrtowc
+[Func]	0x80498d0	.__cxa_atexit
+[Func]	0x80498e0	.error
+[Func]	0x80498f0	.strcoll
+[Func]	0x8049900	.getenv
+[Func]	0x8049910	.realloc
+[Func]	0x8049920	.lgetfilecon
+[Func]	0x8049930	.malloc
+[Func]	0x8049940	.__freading
+[Func]	0x8049950	.__memcpy_chk
+[Func]	0x8049960	.__gmon_start__
+[Func]	0x8049970	.exit
+[Func]	0x8049980	.fdopen
+[Func]	0x8049990	.fputs_unlocked
+[Func]	0x80499a0	.strftime
+[Func]	0x80499b0	.getopt_long
+[Func]	0x80499c0	.getfilecon
+[Func]	0x80499d0	.localtime
+[Func]	0x80499e0	.strtoul
+[Func]	0x80499f0	.strchr
+[Func]	0x8049a00	.fscanf
+[Func]	0x8049a10	.strlen
+[Func]	0x8049a20	.__libc_start_main
+[Func]	0x8049a30	.sigaddset
+[Func]	0x8049a40	.memset
+[Func]	0x8049a50	.ungetc
+[Func]	0x8049a60	.__errno_location
+[Func]	0x8049a70	.tcgetpgrp
+[Func]	0x8049a80	.fileno
+[Func]	0x8049a90	.stpncpy
+[Func]	0x8049aa0	.acl_get_entry
+[Func]	0x8049ab0	.fwrite_unlocked
+[Func]	0x8049ac0	.__printf_chk
+[Func]	0x8049ad0	.mempcpy
+[Func]	0x8049ae0	.wcswidth
+[Func]	0x8049af0	.sigemptyset
+[Func]	0x8049b00	.__uflow
+[Func]	0x8049b10	.nl_langinfo
+[Func]	0x8049b20	.setlocale
+[Func]	0x8049b30	.strrchr
+[Func]	0x8049b40	.__overflow
+[Func]	0x8049b50	.mbstowcs
+[Func]	0x8049b60	.localeconv
+[Func]	0x8049b70	.freecon
+[Func]	0x8049b80	.lseek64
+[Func]	0x8049b90	.readdir64
+[Func]	0x8049ba0	.__fprintf_chk
+[Func]	0x8049bb0	.sigaction
+[Func]	0x8049bc0	.bindtextdomain
+[Func]	0x8049bd0	.strncmp
+[Func]	0x8049be0	.isatty
+[Func]	0x8049bf0	.abort
+[Func]	0x8049c00	.__xstat64
+[Func]	0x8049c10	.__lxstat64
+[Func]	0x8049c20	.getgrnam
+[Func]	0x8049c30	.close
+[Func]	0x8049c40	.closedir
+[Func]	0x8049c50	.opendir
+[Func]	0x8049c60	.getgrgid
+[Func]	0x8049c70	.__ctype_tolower_loc
+[Func]	0x8049c80	.__assert_fail
+[Func]	0x8049c90	.__ctype_b_loc
+[Func]	0x8049ca0	.calloc
+[Func]	0x8049cb0	.__sprintf_chk
+[Func]	0x8049cc0	main
+[Func]	0x804be59	start
+[Func]	0x804be80	sub_804BE80
+[Func]	0x804be90	sub_804BE90
+[Func]	0x804bf00	sub_804BF00
+[Func]	0x804bf20	sub_804BF20
+[Func]	0x804bf50	sub_804BF50
+[Func]	0x804bf70	sub_804BF70
+[Func]	0x804bfe0	sub_804BFE0
+[Func]	0x804c2b0	sub_804C2B0
+[Func]	0x804c310	sub_804C310
+[Func]	0x804c370	sub_804C370
+[Func]	0x804c3b0	sub_804C3B0
+[Func]	0x804c460	sub_804C460
+[Func]	0x804c5f0	sub_804C5F0
+[Func]	0x804c610	sub_804C610
+[Func]	0x804c640	sub_804C640
+[Func]	0x804c650	sub_804C650
+[Func]	0x804c660	sub_804C660
+[Func]	0x804c680	sub_804C680
+[Func]	0x804c6a0	sub_804C6A0
+[Func]	0x804c7e0	sub_804C7E0
+[Func]	0x804c8b0	sub_804C8B0
+[Func]	0x804cc50	sub_804CC50
+[Func]	0x804cd10	sub_804CD10
+[Func]	0x804cdc0	sub_804CDC0
+[Func]	0x804ce40	sub_804CE40
+[Func]	0x804cea0	sub_804CEA0
+[Func]	0x804cf00	sub_804CF00
+[Func]	0x804cf70	sub_804CF70
+[Func]	0x804cfd0	sub_804CFD0
+[Func]	0x804d040	sub_804D040
+[Func]	0x804d130	sub_804D130
+[Func]	0x804d190	sub_804D190
+[Func]	0x804d330	sub_804D330
+[Func]	0x804d620	sub_804D620
+[Func]	0x804d680	sub_804D680
+[Func]	0x804d740	sub_804D740
+[Func]	0x804d780	sub_804D780
+[Func]	0x804d7d0	sub_804D7D0
+[Func]	0x804d8b0	sub_804D8B0
+[Func]	0x804dd90	sub_804DD90
+[Func]	0x804dde0	sub_804DDE0
+[Func]	0x804dec0	sub_804DEC0
+[Func]	0x804dfa0	sub_804DFA0
+[Func]	0x804e000	sub_804E000
+[Func]	0x804e050	sub_804E050
+[Func]	0x804e0a0	sub_804E0A0
+[Func]	0x804e0f0	sub_804E0F0
+[Func]	0x804e140	sub_804E140
+[Func]	0x804e190	sub_804E190
+[Func]	0x804e1e0	sub_804E1E0
+[Func]	0x804e280	sub_804E280
+[Func]	0x804e320	sub_804E320
+[Func]	0x804e530	sub_804E530
+[Func]	0x804e5b0	sub_804E5B0
+[Func]	0x804e630	sub_804E630
+[Func]	0x804e6b0	sub_804E6B0
+[Func]	0x804e730	sub_804E730
+[Func]	0x804e7b0	sub_804E7B0
+[Func]	0x804e820	sub_804E820
+[Func]	0x804e890	sub_804E890
+[Func]	0x804e8e0	sub_804E8E0
+[Func]	0x804e930	sub_804E930
+[Func]	0x804e980	sub_804E980
+[Func]	0x804e9d0	sub_804E9D0
+[Func]	0x804ea20	sub_804EA20
+[Func]	0x804ea70	sub_804EA70
+[Func]	0x804eae0	sub_804EAE0
+[Func]	0x804eb50	sub_804EB50
+[Func]	0x804ebf0	sub_804EBF0
+[Func]	0x804ec90	sub_804EC90
+[Func]	0x804f520	sub_804F520
+[Func]	0x804f940	sub_804F940
+[Func]	0x804f9f0	sub_804F9F0
+[Func]	0x804faa0	sub_804FAA0
+[Func]	0x804fb20	sub_804FB20
+[Func]	0x804fba0	sub_804FBA0
+[Func]	0x804fc20	sub_804FC20
+[Func]	0x804fca0	sub_804FCA0
+[Func]	0x804fd20	sub_804FD20
+[Func]	0x804fda0	sub_804FDA0
+[Func]	0x804fe20	sub_804FE20
+[Func]	0x804fea0	sub_804FEA0
+[Func]	0x804ff60	sub_804FF60
+[Func]	0x8050e10	sub_8050E10
+[Func]	0x80513a0	sub_80513A0
+[Func]	0x8051480	sub_8051480
+[Func]	0x8051490	sub_8051490
+[Func]	0x8051580	sub_8051580
+[Func]	0x8051600	sub_8051600
+[Func]	0x8051700	sub_8051700
+[Func]	0x8051880	sub_8051880
+[Func]	0x8051950	sub_8051950
+[Func]	0x80519a0	sub_80519A0
+[Func]	0x8051bc0	sub_8051BC0
+[Func]	0x8051bd0	sub_8051BD0
+[Func]	0x8051c00	sub_8051C00
+[Func]	0x8051cf0	sub_8051CF0
+[Func]	0x8051d90	sub_8051D90
+[Func]	0x80521d0	sub_80521D0
+[Func]	0x8052230	sub_8052230
+[Func]	0x8052290	sub_8052290
+[Func]	0x8052340	sub_8052340
+[Func]	0x8052370	sub_8052370
+[Func]	0x8052450	sub_8052450
+[Func]	0x8052540	sub_8052540
+[Func]	0x8052680	sub_8052680
+[Func]	0x8052a60	sub_8052A60
+[Func]	0x8052c60	sub_8052C60
+[Func]	0x8052d30	sub_8052D30
+[Func]	0x8052ee0	sub_8052EE0
+[Func]	0x80530e0	sub_80530E0
+[Func]	0x8053140	sub_8053140
+[Func]	0x80532e0	sub_80532E0
+[Func]	0x80540a0	sub_80540A0
+[Func]	0x80542a0	sub_80542A0
+[Func]	0x8054420	sub_8054420
+[Func]	0x80545a0	sub_80545A0
+[Func]	0x8054670	sub_8054670
+[Func]	0x80546d0	sub_80546D0
+[Func]	0x8054b50	sub_8054B50
+[Func]	0x8054d30	sub_8054D30
+[Func]	0x8054d60	sub_8054D60
+[Func]	0x8054fa0	sub_8054FA0
+[Func]	0x8054fc0	sub_8054FC0
+[Func]	0x8055100	sub_8055100
+[Func]	0x8055160	sub_8055160
+[Func]	0x8055190	sub_8055190
+[Func]	0x8055280	sub_8055280
+[Func]	0x8055370	sub_8055370
+[Func]	0x8055d50	sub_8055D50
+[Func]	0x8055ec0	sub_8055EC0
+[Func]	0x8055f00	sub_8055F00
+[Func]	0x8055f20	sub_8055F20
+[Func]	0x8055f40	sub_8055F40
+[Func]	0x8055fc0	sub_8055FC0
+[Func]	0x8056000	sub_8056000
+[Func]	0x8056050	sub_8056050
+[Func]	0x8056200	sub_8056200
+[Func]	0x8056240	sub_8056240
+[Func]	0x8056340	sub_8056340
+[Func]	0x8056440	sub_8056440
+[Func]	0x8056480	sub_8056480
+[Func]	0x80565e0	sub_80565E0
+[Func]	0x8056600	sub_8056600
+[Func]	0x8056620	sub_8056620
+[Func]	0x8056660	sub_8056660
+[Func]	0x80566a0	sub_80566A0
+[Func]	0x8057e60	sub_8057E60
+[Func]	0x8057ea0	sub_8057EA0
+[Func]	0x80582b0	sub_80582B0
+[Func]	0x8058320	sub_8058320
+[Func]	0x80583c0	sub_80583C0
+[Func]	0x8058430	sub_8058430
+[Func]	0x80585b0	sub_80585B0
+[Func]	0x80585e0	sub_80585E0
+[Func]	0x8058600	sub_8058600
+[Func]	0x8058630	sub_8058630
+[Func]	0x8058a70	sub_8058A70
+[Func]	0x8058b10	sub_8058B10
+[Func]	0x8059340	sub_8059340
+[Func]	0x8059360	sub_8059360
+[Func]	0x80593a0	sub_80593A0
+[Func]	0x80593f0	sub_80593F0
+[Func]	0x8059450	sub_8059450
+[Func]	0x80594d0	sub_80594D0
+[Func]	0x80598b0	sub_80598B0
+[Func]	0x80598e0	sub_80598E0
+[Func]	0x8059970	sub_8059970
+[Func]	0x80599d0	sub_80599D0
+[Func]	0x8059a60	sub_8059A60
+[Func]	0x8059c30	sub_8059C30
+[Func]	0x8059e50	sub_8059E50
+[Func]	0x8059f80	sub_8059F80
+[Func]	0x805a100	init
+[Func]	0x805a170	fini
+[Func]	0x805a180	sub_805A180
+[Func]	0x805a1bc	.term_proc
+[Func]	0x8067074	__ctype_toupper_loc
+[Func]	0x8067078	getpwnam
+[Func]	0x806707c	raise
+[Func]	0x8067080	strstr
+[Func]	0x8067084	strcmp
+[Func]	0x8067088	open64
+[Func]	0x806708c	__mempcpy_chk
+[Func]	0x8067090	getpwuid
+[Func]	0x8067094	fflush
+[Func]	0x8067098	_exit
+[Func]	0x806709c	sigprocmask
+[Func]	0x80670a0	dirfd
+[Func]	0x80670a4	wcwidth
+[Func]	0x80670a8	memmove
+[Func]	0x80670ac	_setjmp
+[Func]	0x80670b0	memcpy
+[Func]	0x80670b4	mbsinit
+[Func]	0x80670b8	clock_gettime
+[Func]	0x80670bc	__strtoull_internal
+[Func]	0x80670c0	fclose
+[Func]	0x80670c4	fseeko64
+[Func]	0x80670c8	signal
+[Func]	0x80670cc	memcmp
+[Func]	0x80670d0	gettimeofday
+[Func]	0x80670d4	_obstack_newchunk
+[Func]	0x80670d8	dcgettext
+[Func]	0x80670dc	mktime
+[Func]	0x80670e0	stpcpy
+[Func]	0x80670e4	__stack_chk_fail
+[Func]	0x80670e8	_obstack_begin
+[Func]	0x80670ec	sigismember
+[Func]	0x80670f0	fgetfilecon
+[Func]	0x80670f4	fflush_unlocked
+[Func]	0x80670f8	iswcntrl
+[Func]	0x80670fc	textdomain
+[Func]	0x8067100	readlink
+[Func]	0x8067104	fnmatch
+[Func]	0x8067108	iswprint
+[Func]	0x806710c	ioctl
+[Func]	0x8067110	acl_get_tag_type
+[Func]	0x8067114	fwrite
+[Func]	0x8067118	__fxstat64
+[Func]	0x806711c	__ctype_get_mb_cur_max
+[Func]	0x8067120	acl_extended_file
+[Func]	0x8067124	strcpy
+[Func]	0x8067128	__fpending
+[Func]	0x806712c	wcstombs
+[Func]	0x8067130	mbrtowc
+[Func]	0x8067134	__cxa_atexit
+[Func]	0x8067138	error
+[Func]	0x806713c	strcoll
+[Func]	0x8067140	getenv
+[Func]	0x8067144	realloc
+[Func]	0x8067148	lgetfilecon
+[Func]	0x806714c	__freading
+[Func]	0x8067150	__memcpy_chk
+[Func]	0x8067154	exit
+[Func]	0x8067158	fdopen
+[Func]	0x806715c	fputs_unlocked
+[Func]	0x8067160	strftime
+[Func]	0x8067164	getopt_long
+[Func]	0x8067168	getfilecon
+[Func]	0x806716c	localtime
+[Func]	0x8067170	strtoul
+[Func]	0x8067174	strchr
+[Func]	0x8067178	fscanf
+[Func]	0x806717c	strlen
+[Func]	0x8067180	__libc_start_main
+[Func]	0x8067184	sigaddset
+[Func]	0x8067188	memset
+[Func]	0x806718c	ungetc
+[Func]	0x8067190	__errno_location
+[Func]	0x8067194	tcgetpgrp
+[Func]	0x8067198	fileno
+[Func]	0x806719c	stpncpy
+[Func]	0x80671a0	acl_get_entry
+[Func]	0x80671a4	fwrite_unlocked
+[Func]	0x80671a8	__printf_chk
+[Func]	0x80671ac	mempcpy
+[Func]	0x80671b0	wcswidth
+[Func]	0x80671b4	sigemptyset
+[Func]	0x80671b8	__uflow
+[Func]	0x80671bc	nl_langinfo
+[Func]	0x80671c0	setlocale
+[Func]	0x80671c4	strrchr
+[Func]	0x80671c8	__overflow
+[Func]	0x80671cc	mbstowcs
+[Func]	0x80671d0	localeconv
+[Func]	0x80671d4	freecon
+[Func]	0x80671d8	lseek64
+[Func]	0x80671dc	readdir64
+[Func]	0x80671e0	__fprintf_chk
+[Func]	0x80671e4	sigaction
+[Func]	0x80671e8	bindtextdomain
+[Func]	0x80671ec	strncmp
+[Func]	0x80671f0	isatty
+[Func]	0x80671f4	abort
+[Func]	0x80671f8	__xstat64
+[Func]	0x80671fc	__lxstat64
+[Func]	0x8067200	getgrnam
+[Func]	0x8067204	close
+[Func]	0x8067208	closedir
+[Func]	0x806720c	opendir
+[Func]	0x8067210	getgrgid
+[Func]	0x8067214	__ctype_tolower_loc
+[Func]	0x8067218	__assert_fail
+[Func]	0x806721c	__ctype_b_loc
+[Func]	0x8067220	calloc
+[Func]	0x8067224	__sprintf_chk
+[Func]	0x8067228	free
+[Func]	0x806722c	malloc
+[Func]	0x8067234	__gmon_start__
++ Functions: 404
++ Instructions: 19699
++ Branch instructions: 4080
++ Indirect branch instructions: 309
+|-- ret: 280
+|-- jmp: 13
+|-- call: 16
+|-- system call: 0
+|-- call preceded: 16
+
+
+
+
+[Gadget]
+0x0804FADD:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FBDD:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052528:               retn
+Types:                    MoveReg, AndGadget, OrGadget, LoadConst
+Clobbers:                 eax, edi, esi
+Functional Max length:    5
+Nop Max length:           9
+Call preceded:            False
+
+[Gadget]
+0x08051CBB:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    9
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805A1B7:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EA5F:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055FEA:               retn
+Types:                    StoreMem
+Clobbers:                 esp
+Functional Max length:    4
+Nop Max length:           2
+Call preceded:            False
+
+[Gadget]
+0x08052815:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08059589:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FD98:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805232F:               retn
+Types:                    MoveReg
+Clobbers:                 eax, edx
+Functional Max length:    2
+Nop Max length:           7
+Call preceded:            False
+
+[Gadget]
+0x0804FC18:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E1D7:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055F78:               retn
+Types:                    XorGadget, StoreMem, LoadMemJump, LoadMultiple
+Clobbers:                 eax, edx, ebx, esi, ecx
+Functional Max length:    5
+Nop Max length:           7
+Call preceded:            False
+
+[Gadget]
+0x0805A1CF:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C7CE:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C04F:               retn
+Types:                    StoreMem, LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, edx, ebx, esi
+Functional Max length:    13
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C451:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    15
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08054537:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052667:               retn
+Types:                    MoveReg, AndGadget, LoadMemJump, OrGadget
+Clobbers:                 eax
+Functional Max length:    4
+Nop Max length:           3
+Call preceded:            False
+
+[Gadget]
+0x0804FD18:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E9C7:               retn
+Types:                    LoadMultiple, LoadMemJump, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E91F:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804F97D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080594A9:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08054B47:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E66D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E21D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052259:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, esi, esp
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805845D:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EA0F:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805831A:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E6A0:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E037:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E8D7:               retn
+Types:                    LoadMultiple, LoadMemJump, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080552A0:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055F17:               retn
+Types:                    LoadMemJump
+Clobbers:                 eax
+Functional Max length:    2
+Nop Max length:           4
+Call preceded:            False
+
+[Gadget]
+0x080562EC:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FDE5:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D9E0:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EB1F:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805286F:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 eax, edi, ebx, esi, ecx
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08058013:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E4ED:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FB5D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804CCE8:               retn
+Types:                    LoadMultiple, LoadMemJump, StoreMem
+Clobbers:                 esp, edi, ebp, ebx, esi, ecx
+Functional Max length:    9
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E620:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805858E:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805239F:               call    dword ptr [esi+1Ch]
+Types:                    StoreMem
+Clobbers:                 esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080495AE:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080531B1:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi, esp
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E187:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804DE67:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804BEF3:               rep retn
+Types:                    LoadMemJump
+Clobbers:                 ebp, esp
+Functional Max length:    2
+Nop Max length:           3
+Call preceded:            True
+
+[Gadget]
+0x0804C3A3:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08059D1E:               retn
+Types:                    AddGadget, LoadAddGadget, LoadXorGadget, XorGadget, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, edx, esi, ecx
+Functional Max length:    16
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804CE76:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08059F34:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, edx, esi
+Functional Max length:    9
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E0D7:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080585D0:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080542D3:               retn
+Types:                    AndGadget
+Clobbers:                 eax, edx, edi, ebx, esi
+Functional Max length:    2
+Nop Max length:           6
+Call preceded:            False
+
+[Gadget]
+0x0805628D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08051E50:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052C2A:               call    edx
+Types:                    Jump
+Clobbers:                 esp
+Functional Max length:    3
+Nop Max length:           0
+Call preceded:            True
+
+[Gadget]
+0x080529E1:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x0805234A:               call    dword ptr [eax+18h]
+Types:                    StoreMem, MoveReg, AndGadget, OrGadget
+Clobbers:                 ebx, esp
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08058472:               retn
+Types:                    LoadConst, LoadMemJump
+Clobbers:                 eax, ebx, esp
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E76D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055237:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804CDA1:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    8
+Nop Max length:           2
+Call preceded:            False
+
+[Gadget]
+0x0805993A:               retn
+Types:                    StoreMem, LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052902:               retn
+Types:                    LoadMultiple, LoadMemJump, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055F2E:               retn
+Types:                    StoreMem
+Clobbers:                 edx
+Functional Max length:    2
+Nop Max length:           3
+Call preceded:            False
+
+[Gadget]
+0x08052653:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080523EB:               call    dword ptr [esi+1Ch]
+Types:                    StoreMem
+Clobbers:                 esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C2F1:               retn
+Types:                    LoadMemJump
+Clobbers:                 edi, esi, ecx
+Functional Max length:    2
+Nop Max length:           8
+Call preceded:            False
+
+[Gadget]
+0x0804E2F0:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EFEF:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08051814:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052C96:               call    dword ptr [esi+20h]
+Types:                    StoreMem, MoveReg, AndGadget, LoadMemJump, OrGadget
+Clobbers:                 eax, esp
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EBC0:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052A26:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805199F:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx
+Functional Max length:    2
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C633:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080518C7:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 eax, ebx, esi, esp
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080524D5:               retn
+Types:                    LoadConst, LoadMemJump
+Clobbers:                 eax, ebx
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804CEDD:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E7A0:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804DFC5:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E9BF:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052437:               retn
+Types:                    StoreMem, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, ebp, ebx, esi, ecx
+Functional Max length:    12
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805A03A:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, edx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08053122:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D069:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E6ED:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E177:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EC2D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805155A:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D246:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052908:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08059EA0:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 esp, edi, eax, ebp, edx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805272B:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E56D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D8A8:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805172E:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C862:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804DF0F:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C36C:               retn
+Types:                    StoreMem, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    13
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E96F:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D167:               retn
+Types:                    LoadMemJump
+Clobbers:                 ecx, ebx, esp
+Functional Max length:    3
+Nop Max length:           9
+Call preceded:            False
+
+[Gadget]
+0x0804E1C7:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08059F24:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, edx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EAAF:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080519C4:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E5ED:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E047:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052408:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x08056868:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E977:               retn
+Types:                    LoadMultiple, LoadMemJump, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052687:               retn
+Types:                    LoadMemJump
+Clobbers:                 eax
+Functional Max length:    2
+Nop Max length:           4
+Call preceded:            False
+
+[Gadget]
+0x08054CE9:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FCDD:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08056043:               retn
+Types:                    StoreMem, LoadMemJump, LoadMultiple
+Clobbers:                 edi, ebx, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08059F48:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 esp, edi, eax, ebp, edx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804BF8C:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080523DC:               retn
+Types:                    StoreMem, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, ebp, ebx, esi, ecx
+Functional Max length:    14
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x0804CE96:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052227:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805228A:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055180:               retn
+Types:                    StoreMem, MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 eax, edi, ebx, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E8CF:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E7D5:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080529B0:               call    esi
+Types:                    MoveReg, AndGadget, LoadMemJump, OrGadget, Jump, StoreMem
+Clobbers:                 eax, esp
+Functional Max length:    6
+Nop Max length:           0
+Call preceded:            False
+
+[Gadget]
+0x0804FC98:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08054808:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080583DD:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FB18:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804DF7C:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080528A6:               retn
+Types:                    LoadConst
+Clobbers:                 eax, esp
+Functional Max length:    3
+Nop Max length:           2
+Call preceded:            False
+
+[Gadget]
+0x08058B92:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080537FB:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805466D:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    10
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804DF65:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FB98:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08051B16:               retn
+Types:                    LoadConst
+Clobbers:                 eax
+Functional Max length:    9
+Nop Max length:           4
+Call preceded:            False
+
+[Gadget]
+0x080515D5:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805284B:               call    dword ptr [edi+1Ch]
+Types:                    StoreMem
+Clobbers:                 esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080598CA:               retn
+Types:                    LoadConst
+Clobbers:                 eax
+Functional Max length:    2
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E0E7:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FE65:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08051474:               retn
+Types:                    XorGadget, LoadMemJump, SubGadget, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052F44:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E7EC:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E097:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805235E:               retn
+Types:                    LoadMemJump
+Clobbers:                 eax, edx, ebx, esp
+Functional Max length:    5
+Nop Max length:           2
+Call preceded:            True
+
+[Gadget]
+0x0805948D:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08057F9B:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080583B9:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052C03:               call    edx
+Types:                    Jump
+Clobbers:                 esp
+Functional Max length:    3
+Nop Max length:           0
+Call preceded:            False
+
+[Gadget]
+0x08056651:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D028:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FD5D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C55D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi, esp
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080546C3:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052964:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804BEB3:               call    eax
+Types:                    Jump, MoveReg, StoreMem
+Clobbers:                 ebp, esp
+Functional Max length:    5
+Nop Max length:           0
+Call preceded:            False
+
+[Gadget]
+0x0804D6BD:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D65D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052861:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x080593BF:               retn
+Types:                    LoadConst, LoadMemJump
+Clobbers:                 eax, ebx
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804BEB9:               rep retn
+Types:                    LoadMemJump
+Clobbers:                 ebp, esp
+Functional Max length:    2
+Nop Max length:           3
+Call preceded:            True
+
+[Gadget]
+0x08055F3B:               retn
+Types:                    LoadConst, StoreMem
+Clobbers:                 eax, edx
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FC5D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052535:               retn
+Types:                    MoveReg, AndGadget, LoadConst, OrGadget
+Clobbers:                 eax
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08059FC6:               retn
+Types:                    XorGadget, MoveReg, LoadMemJump, SubGadget, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, edx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805640C:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080544F7:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EA17:               retn
+Types:                    LoadMultiple, LoadMemJump, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FA2D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08051B39:               retn
+Types:                    MoveReg, AndGadget, LoadConst, OrGadget
+Clobbers:                 eax
+Functional Max length:    10
+Nop Max length:           4
+Call preceded:            False
+
+[Gadget]
+0x08054D83:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055E83:               retn
+Types:                    StoreMem, MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, edx, ebx, esi
+Functional Max length:    11
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08051449:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D95B:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08059A4F:               retn
+Types:                    XorGadget, LoadMultiple, SubGadget, LoadMemJump, StoreMem, LoadConst
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    10
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C2D7:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, esi
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055040:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    10
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055FA2:               retn
+Types:                    LoadMemJump, StoreMem
+Clobbers:                 eax, ecx
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08051569:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08054F45:               retn
+Types:                    StoreMem, LoadMemJump, LoadMultiple
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x080517C9:               retn
+Types:                    MoveReg, AndGadget, OrGadget
+Clobbers:                 eax
+Functional Max length:    4
+Nop Max length:           3
+Call preceded:            False
+
+[Gadget]
+0x08054377:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052E92:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi, esp
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x0804E087:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080556EC:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080525D8:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804C9A2:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080501D4:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E127:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805944C:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, edi, ebp, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E845:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08054613:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E927:               retn
+Types:                    LoadMultiple, LoadMemJump, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804DFDC:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080560FB:               retn
+Types:                    LoadMultiple, LoadMemJump, StoreMem
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    10
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08056691:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055F0A:               retn
+Types:                    LoadMemJump
+Clobbers:                 eax
+Functional Max length:    2
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080561BB:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 dword_806639C, esp, edi, off_8066390, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052B8F:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805A002:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 esp, edi, eax, ebp, edx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EC60:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080592EF:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08051926:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804F561:               rep retn                ; jumptable 0804F535 default case
+Types:                    LoadMultiple, LoadMemJump, StoreMem
+Clobbers:                 esp, edi, ebp, ebx, esi, ecx
+Functional Max length:    9
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E5A0:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804EA67:               retn
+Types:                    LoadMultiple, LoadMemJump, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052276:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ecx, esi, esp
+Functional Max length:    4
+Nop Max length:           6
+Call preceded:            False
+
+[Gadget]
+0x08054453:               retn
+Types:                    AndGadget
+Clobbers:                 eax, edx, edi, ebx, esi
+Functional Max length:    2
+Nop Max length:           6
+Call preceded:            False
+
+[Gadget]
+0x080526D9:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080543B7:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E250:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08055FB7:               retn
+Types:                    LoadConst, LoadMemJump, StoreMem
+Clobbers:                 eax, edx, ecx
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E520:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D5FD:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080517A9:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x080516DD:               retn
+Types:                    LoadMultiple, LoadMemJump, StoreMem
+Clobbers:                 esp, edi, ebp, ebx, esi, ecx
+Functional Max length:    9
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080550E8:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi, esp
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052C55:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x08054D50:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805412B:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08054B12:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052B71:               retn
+Types:                    StoreMem, MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    16
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D0F2:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080586B2:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804D582:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E40D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi, esp
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E137:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804BEED:               call    edx
+Types:                    Jump, MoveReg, StoreMem
+Clobbers:                 ebp, esp
+Functional Max length:    6
+Nop Max length:           0
+Call preceded:            False
+
+[Gadget]
+0x08055EE7:               retn
+Types:                    StoreMem, LoadMemJump, LoadMultiple
+Clobbers:                 edi, ebx, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805145D:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    9
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E85C:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805A160:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x08054B2D:               retn
+Types:                    MoveReg, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, ebx, esi
+Functional Max length:    8
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E2BD:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08054F1C:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    7
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x0804EB8D:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052677:               retn
+Types:                    LoadMemJump
+Clobbers:                 eax
+Functional Max length:    2
+Nop Max length:           4
+Call preceded:            False
+
+[Gadget]
+0x080598D7:               retn
+Types:                    LoadConst
+Clobbers:                 eax
+Functional Max length:    2
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804CF58:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08051D74:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804E720:               retn
+Types:                    LoadMemJump, LoadMultiple, LoadConst
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08059B12:               retn
+Types:                    AddGadget, StoreMem, LoadXorGadget, LoadMemJump, LoadMultiple
+Clobbers:                 esp, edi, eax, ebp, edx, esi, ecx
+Functional Max length:    19
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080585FE:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804BF1C:               rep retn
+Types:                    LoadMemJump
+Clobbers:                 ebp, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804FEDD:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805653A:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, esi, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052A53:               retn
+Types:                    MoveReg, AndGadget, OrGadget
+Clobbers:                 eax
+Functional Max length:    8
+Nop Max length:           7
+Call preceded:            False
+
+[Gadget]
+0x08059445:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 eax, ebx, edi, ebp, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080594C4:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 eax, edi, ebx, esi
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804CFAD:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 edi, ebx, esi
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0805A0DE:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 esp, edi, eax, ebp, edx, esi, ecx
+Functional Max length:    5
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x08052306:               retn
+Types:                    MoveReg, LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, eax
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x0804BF40:               call    edx
+Types:                    Jump, MoveReg, StoreMem
+Clobbers:                 ebp, esp
+Functional Max length:    5
+Nop Max length:           0
+Call preceded:            False
+
++ Functional gadgets: 1167
+|-- Fun Max length: 19
+|-- Fun Min length: 0
+|-- Fun Avg length: 4.67
+
++ Nop gadgets(LIMIT=4): 454
+|-- Nop Max length: 9
+|-- Nop Min length: 0
+|-- Nop Avg length: 1.55
+
++ Normal code fragments: 79
+|-- NCF Max length: 24
+|-- NCF Min length: 6
+|-- NCF Avg length: 11.41

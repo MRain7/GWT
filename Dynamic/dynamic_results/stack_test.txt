@@ -1,0 +1,26 @@
+TARGET:	elf/stack_test
+********************Instructions Information:**********************
+
+===============================================================
+total_instruction: 8418
+result display              Seen           Taken
+call                          80               80
+indirect_call                 11               11
+syscall                        9                0
+return                        86               86
+branch                      1851             1018
+indirect_branch               19               19
+total_branch                2056             1214
+===============================================================
+total_branch_taken / total_instruction = 0.144215
+IBR_taken / BR_taken = 0.0955519
+IBR_taken / total_instruction  = 0.01378
+
+********************gadget_trace information:**********************
+
+taken_IBR / total_IBR = 1
+num_gadget_function: 71
+num_gadget_real_function: 17
+num_gadget_real_nop: 7
+num_gadget_real_normal: 92
+coi_peak: 3

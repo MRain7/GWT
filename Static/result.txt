@@ -1,0 +1,19 @@
+bash, bunzip2, busybox, bzcat, bzip2, bzip2recover, cat, chacl, chgrp, chmod, chown, chvt, cp, cpio, dash, date, dd, df, dir, dmesg, dumpkeys, echo, false, fgconsole, findmnt, fuser, fusermount, getfacl, grep, gzip, hciconfig, hostname, ip, journalctl, kbd_mode, kill, kmod, ld-2, less, lessecho, lesskey, libacl, libaio, libanl-2, libapparmor, libatasmart, libattr, libaudit, libblkid, libbrlapi, libBrokenLocale-2, libbsd, libbz2, libc-2, libcap, libcidn-2, libcom_err, libcrypt-2, libcryptsetup, libdbus-1, libdevmapper-event-lvm2, libdevmapper-event-lvm2mirror, libdevmapper-event-lvm2raid, libdevmapper-event-lvm2snapshot, libdevmapper-event-lvm2thin, libdevmapper-event, libdevmapper, libdl-2, libdns-export, libdns-export, libe2p, libexpat, libext2fs, libfdisk, libfuse, libgcc_s, libgcrypt, libglib-2, libgpg-error, libgssglue, libhistory, libhistory, libirs-export, libisc-export, libisc-export, libisccc-export, libisccfg-export, libiw, libjson-c, libkeyutils, libkmod, liblvm2app, liblvm2cmd, liblzma, liblzo2, libm-2, libmemusage, libmnl, libmount, libncurses, libncursesw, libnfsidmap, libnl-3, libnl-genl-3, libnsl-2, libnss_compat-2, libnss_dns-2, libnss_files-2, libnss_hesiod-2, libnss_mdns, libnss_mdns4, libnss_mdns4_minimal, libnss_mdns6, libnss_mdns6_minimal, libnss_mdns_minimal, libnss_myhostname, libnss_nis-2, libnss_nisplus-2, libntfs-3g, libpam, libpam_misc, libpamc, libparted-fs-resize, libparted, libpci, libpcprofile, libpcre, libpng12, libpopt, libprocps, libpthread-2, libreadline, libreadline, libresolv-2, librt-2, libseccomp, libSegFault, libselinux, libsepol, libslang, libsmartcols, libss, libsysfs, libsystemd, libthread_db-1, libtinfo, libtirpc, libudev, libulockmgr, libusb-0, libusb-1, libutil-2, libuuid, libwrap, libx86, libz, ln, loadkeys, login, loginctl, lowntfs-3g, ls, lsblk, mkdir, mknod, mktemp, more, mount, mountpoint, mt-gnu, mv, nano, nc, netstat, networkctl, nsswitch, ntfs-3g, ntfs-3g, ntfs-3g, ntfs-3g, ntfscat, ntfscluster, ntfscmp, ntfsfallocate, ntfsfix, ntfsinfo, ntfsls, ntfsmove, ntfstruncate, ntfswipe, openvt, pam_access, pam_debug, pam_deny, pam_echo, pam_env, pam_exec, pam_faildelay, pam_filter, pam_ftp, pam_group, pam_issue, pam_keyinit, pam_lastlog, pam_limits, pam_listfile, pam_localuser, pam_loginuid, pam_mail, pam_mkhomedir, pam_motd, pam_namespace, pam_nologin, pam_permit, pam_pwhistory, pam_rhosts, pam_rootok, pam_securetty, pam_selinux, pam_sepermit, pam_shells, pam_stress, pam_succeed_if, pam_systemd, pam_tally, pam_tally2, pam_time, pam_timestamp, pam_tty_audit, pam_umask, pam_unix, pam_userdb, pam_warn, pam_wheel, pam_xauth, ping, ping6, ps, pwd, readlink, rm, rmdir, run-parts, sed, sendprobe, setfacl, setfont, sleep, ss, static, stty, su, sync, systemctl, systemd-ask-password, systemd-escape, systemd-hwdb, systemd-inhibit, systemd-machine-id-setup, systemd-notify, systemd-tmpfiles, systemd-tty-ask-password-agent, tailf, tar, tempfile, touch, true, udevadm, ulockmgr_server, umich_ldap, umount, uname, usleep, vdir, vmmouse_detect, VRL_code_reuse32, VRL_heap32, wdctl, zsh5
++ Files: 279
+
++ [AVG]
+|-- Functions: 351.56
+|-- Instructions: 21261.87
+|-- Branch instructions: 4374.33
+|-- Indirect branch instructions: 342.74
+    |-- ret: 276.30 (7 ~ 5587)
+    |-- jmp: 24.75 (0 ~ 1251)
+    |-- call: 41.42 (1 ~ 1579)
+    |-- system call: 2.47 (0 ~ 462)
+    |-- call preceded: 41.42 (1 ~ 1579)
+|-- Functional gadgets: 1626.28
+    |-- length: 4.55 (1 ~ 66)
+|-- Nop gadgets: 304.25
+    |-- length: 4.05 (1 ~ 71)
+|-- Normal code fragments: 194.89
+    |-- length: 31.09 (0 ~ 3623)

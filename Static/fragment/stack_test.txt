@@ -1,0 +1,371 @@
+! not syscall
+* not call-preceded
+> length: 1
+|-- .init:804828E	retn
+c3
+----------------------------------------
+> length: 2
+|-- .init:804828D	pop     ebx
+|-- .init:804828E	retn
+5bc3
+----------------------------------------
+> length: 3
+|-- .init:804828A	add     esp, 8
+|-- .init:804828D	pop     ebx
+|-- .init:804828E	retn
+83c4085bc3
+----------------------------------------
+============================================================
+! not syscall
+* not call-preceded
+> length: 1
+|-- .plt.got:80482B0	jmp     ds:__gmon_start___ptr
+ff2560960408
+----------------------------------------
+============================================================
+! not syscall
+* not call-preceded
+> length: 1
+|-- .text:80482F3	retn
+c3
+----------------------------------------
+> length: 2
+|-- .text:80482F0	mov     ebx, [esp+0]
+|-- .text:80482F3	retn
+8b1c24c3
+----------------------------------------
+> length: 3
+|-- .text:80482E2	align 10h
+|-- .text:80482F0	mov     ebx, [esp+0]
+|-- .text:80482F3	retn
+66908b1c24c3
+----------------------------------------
+> length: 4
+|-- .text:80482E1	hlt
+|-- .text:80482E2	align 10h
+|-- .text:80482F0	mov     ebx, [esp+0]
+|-- .text:80482F3	retn
+f466908b1c24c3
+----------------------------------------
+============================================================
+! not syscall
+* not call-preceded
+> length: 1
+|-- .text:8048323	call    eax
+ffd0
+----------------------------------------
+> length: 2
+|-- .text:804831E	push    offset __bss_start
+|-- .text:8048323	call    eax
+687c960408ffd0
+----------------------------------------
+> length: 3
+|-- .text:804831B	sub     esp, 14h
+|-- .text:804831E	push    offset __bss_start
+|-- .text:8048323	call    eax
+83ec14687c960408ffd0
+----------------------------------------
+> length: 4
+|-- .text:8048319	mov     ebp, esp
+|-- .text:804831B	sub     esp, 14h
+|-- .text:804831E	push    offset __bss_start
+|-- .text:8048323	call    eax
+89e583ec14687c960408ffd0
+----------------------------------------
+> length: 5
+|-- .text:8048318	push    ebp
+|-- .text:8048319	mov     ebp, esp
+|-- .text:804831B	sub     esp, 14h
+|-- .text:804831E	push    offset __bss_start
+|-- .text:8048323	call    eax
+5589e583ec14687c960408ffd0
+----------------------------------------
+============================================================
+! not syscall
+* call-preceded
+> length: 1
+|-- .text:8048329	rep retn
+f3c3
+----------------------------------------
+> length: 2
+|-- .text:8048328	leave
+|-- .text:8048329	rep retn
+c9f3c3
+----------------------------------------
+> length: 3
+|-- .text:8048325	add     esp, 10h
+|-- .text:8048328	leave
+|-- .text:8048329	rep retn
+83c410c9f3c3
+----------------------------------------
+============================================================
+! not syscall
+* not call-preceded
+> length: 1
+|-- .text:804835D	call    edx
+ffd2
+----------------------------------------
+> length: 2
+|-- .text:8048358	push    offset __bss_start
+|-- .text:804835D	call    edx
+687c960408ffd2
+----------------------------------------
+> length: 3
+|-- .text:8048357	push    eax
+|-- .text:8048358	push    offset __bss_start
+|-- .text:804835D	call    edx
+50687c960408ffd2
+----------------------------------------
+> length: 4
+|-- .text:8048354	sub     esp, 10h
+|-- .text:8048357	push    eax
+|-- .text:8048358	push    offset __bss_start
+|-- .text:804835D	call    edx
+83ec1050687c960408ffd2
+----------------------------------------
+> length: 5
+|-- .text:8048352	mov     ebp, esp
+|-- .text:8048354	sub     esp, 10h
+|-- .text:8048357	push    eax
+|-- .text:8048358	push    offset __bss_start
+|-- .text:804835D	call    edx
+89e583ec1050687c960408ffd2
+----------------------------------------
+> length: 6
+|-- .text:8048351	push    ebp
+|-- .text:8048352	mov     ebp, esp
+|-- .text:8048354	sub     esp, 10h
+|-- .text:8048357	push    eax
+|-- .text:8048358	push    offset __bss_start
+|-- .text:804835D	call    edx
+5589e583ec1050687c960408ffd2
+----------------------------------------
+============================================================
+! not syscall
+* call-preceded
+> length: 1
+|-- .text:8048363	rep retn
+f3c3
+----------------------------------------
+> length: 2
+|-- .text:8048362	leave
+|-- .text:8048363	rep retn
+c9f3c3
+----------------------------------------
+> length: 3
+|-- .text:804835F	add     esp, 10h
+|-- .text:8048362	leave
+|-- .text:8048363	rep retn
+83c410c9f3c3
+----------------------------------------
+============================================================
+! not syscall
+* not call-preceded
+> length: 1
+|-- .text:804838C	rep retn
+f3c3
+----------------------------------------
+> length: 2
+|-- .text:804838B	leave
+|-- .text:804838C	rep retn
+c9f3c3
+----------------------------------------
+> length: 3
+|-- .text:8048384	mov     ds:__bss_start, 1
+|-- .text:804838B	leave
+|-- .text:804838C	rep retn
+c6057c96040801c9f3c3
+----------------------------------------
+============================================================
+! not syscall
+* not call-preceded
+> length: 1
+|-- .text:80483B0	call    edx
+ffd2
+----------------------------------------
+> length: 2
+|-- .text:80483AF	push    eax
+|-- .text:80483B0	call    edx
+50ffd2
+----------------------------------------
+> length: 3
+|-- .text:80483AC	sub     esp, 14h
+|-- .text:80483AF	push    eax
+|-- .text:80483B0	call    edx
+83ec1450ffd2
+----------------------------------------
+> length: 4
+|-- .text:80483AA	mov     ebp, esp
+|-- .text:80483AC	sub     esp, 14h
+|-- .text:80483AF	push    eax
+|-- .text:80483B0	call    edx
+89e583ec1450ffd2
+----------------------------------------
+> length: 5
+|-- .text:80483A9	push    ebp
+|-- .text:80483AA	mov     ebp, esp
+|-- .text:80483AC	sub     esp, 14h
+|-- .text:80483AF	push    eax
+|-- .text:80483B0	call    edx
+5589e583ec1450ffd2
+----------------------------------------
+============================================================
+! not syscall
+* call-preceded
+> length: 1
+|-- .text:80483FC	retn
+c3
+----------------------------------------
+> length: 2
+|-- .text:80483FB	leave
+|-- .text:80483FC	retn
+c9c3
+----------------------------------------
+> length: 3
+|-- .text:80483F6	mov     eax, 0
+|-- .text:80483FB	leave
+|-- .text:80483FC	retn
+b800000000c9c3
+----------------------------------------
+============================================================
+! not syscall
+* not call-preceded
+> length: 1
+|-- .text:8048444	call    ds:(__frame_dummy_init_array_entry - 8049664h)[ebx+edi*4]
+ff94bb08ffffff
+----------------------------------------
+> length: 2
+|-- .text:8048443	push    ebp
+|-- .text:8048444	call    ds:(__frame_dummy_init_array_entry - 8049664h)[ebx+edi*4]
+55ff94bb08ffffff
+----------------------------------------
+> length: 3
+|-- .text:804843F	push    [esp+24h+arg_4]
+|-- .text:8048443	push    ebp
+|-- .text:8048444	call    ds:(__frame_dummy_init_array_entry - 8049664h)[ebx+edi*4]
+ff74242c55ff94bb08ffffff
+----------------------------------------
+> length: 4
+|-- .text:804843B	push    [esp+20h+arg_8]
+|-- .text:804843F	push    [esp+24h+arg_4]
+|-- .text:8048443	push    ebp
+|-- .text:8048444	call    ds:(__frame_dummy_init_array_entry - 8049664h)[ebx+edi*4]
+ff74242cff74242c55ff94bb08ffffff
+----------------------------------------
+> length: 5
+|-- .text:8048438	sub     esp, 4
+|-- .text:804843B	push    [esp+20h+arg_8]
+|-- .text:804843F	push    [esp+24h+arg_4]
+|-- .text:8048443	push    ebp
+|-- .text:8048444	call    ds:(__frame_dummy_init_array_entry - 8049664h)[ebx+edi*4]
+83ec04ff74242cff74242c55ff94bb08ffffff
+----------------------------------------
+> length: 6
+|-- .text:8048432	lea     esi, [esi+0]
+|-- .text:8048438	sub     esp, 4
+|-- .text:804843B	push    [esp+20h+arg_8]
+|-- .text:804843F	push    [esp+24h+arg_4]
+|-- .text:8048443	push    ebp
+|-- .text:8048444	call    ds:(__frame_dummy_init_array_entry - 8049664h)[ebx+edi*4]
+8db60000000083ec04ff74242cff74242c55ff94bb08ffffff
+----------------------------------------
+============================================================
+! not syscall
+* call-preceded
+> length: 1
+|-- .text:804845C	retn
+c3
+----------------------------------------
+> length: 2
+|-- .text:804845B	pop     ebp
+|-- .text:804845C	retn
+5dc3
+----------------------------------------
+> length: 3
+|-- .text:804845A	pop     edi
+|-- .text:804845B	pop     ebp
+|-- .text:804845C	retn
+5f5dc3
+----------------------------------------
+> length: 4
+|-- .text:8048459	pop     esi
+|-- .text:804845A	pop     edi
+|-- .text:804845B	pop     ebp
+|-- .text:804845C	retn
+5e5f5dc3
+----------------------------------------
+> length: 5
+|-- .text:8048458	pop     ebx
+|-- .text:8048459	pop     esi
+|-- .text:804845A	pop     edi
+|-- .text:804845B	pop     ebp
+|-- .text:804845C	retn
+5b5e5f5dc3
+----------------------------------------
+> length: 6
+|-- .text:8048455	add     esp, 0Ch
+|-- .text:8048458	pop     ebx
+|-- .text:8048459	pop     esi
+|-- .text:804845A	pop     edi
+|-- .text:804845B	pop     ebp
+|-- .text:804845C	retn
+83c40c5b5e5f5dc3
+----------------------------------------
+============================================================
+! not syscall
+* not call-preceded
+> length: 1
+|-- .text:8048460	rep retn
+f3c3
+----------------------------------------
+> length: 2
+|-- .text:804845D	align 10h
+|-- .text:8048460	rep retn
+8d7600f3c3
+----------------------------------------
+============================================================
+! not syscall
+* not call-preceded
+> length: 1
+|-- .fini:8048477	retn
+c3
+----------------------------------------
+> length: 2
+|-- .fini:8048476	pop     ebx
+|-- .fini:8048477	retn
+5bc3
+----------------------------------------
+> length: 3
+|-- .fini:8048473	add     esp, 8
+|-- .fini:8048476	pop     ebx
+|-- .fini:8048477	retn
+83c4085bc3
+----------------------------------------
+> length: 4
+|-- .fini:804846D	add     ebx, 11F7h
+|-- .fini:8048473	add     esp, 8
+|-- .fini:8048476	pop     ebx
+|-- .fini:8048477	retn
+81c3f711000083c4085bc3
+----------------------------------------
+============================================================
+[Func]	0x804826c	.init_proc
+[Func]	0x80482a0	.__libc_start_main
+[Func]	0x80482b0	__gmon_start__
+[Func]	0x80482c0	_start
+[Func]	0x80482f0	__x86.get_pc_thunk.bx
+[Func]	0x8048300	deregister_tm_clones
+[Func]	0x8048330	register_tm_clones
+[Func]	0x8048370	__do_global_dtors_aux
+[Func]	0x8048390	frame_dummy
+[Func]	0x80483bb	main
+[Func]	0x8048400	__libc_csu_init
+[Func]	0x8048460	__libc_csu_fini
+[Func]	0x8048464	.term_proc
+[Func]	0x8049680	__libc_start_main@@GLIBC_2.0
+[Func]	0x8049684	__libc_start_main
+[Func]	0x8049688	__imp___gmon_start__
++ Functions: 16
++ Instructions: 156
++ Branch instructions: 35
++ Indirect branch instructions: 14

@@ -1,0 +1,140 @@
+[Func]	0x80482c8	.init_proc
+[Func]	0x8048300	.free
+[Func]	0x8048310	.malloc
+[Func]	0x8048320	.puts
+[Func]	0x8048330	.__libc_start_main
+[Func]	0x8048340	__gmon_start__
+[Func]	0x8048350	_start
+[Func]	0x8048380	__x86.get_pc_thunk.bx
+[Func]	0x8048390	deregister_tm_clones
+[Func]	0x80483c0	register_tm_clones
+[Func]	0x8048400	__do_global_dtors_aux
+[Func]	0x8048420	frame_dummy
+[Func]	0x804844b	main
+[Func]	0x8048540	__libc_csu_init
+[Func]	0x80485a0	__libc_csu_fini
+[Func]	0x80485a4	.term_proc
+[Func]	0x80497ec	free@@GLIBC_2.0
+[Func]	0x80497f0	malloc@@GLIBC_2.0
+[Func]	0x80497f4	puts@@GLIBC_2.0
+[Func]	0x80497f8	__libc_start_main@@GLIBC_2.0
+[Func]	0x80497fc	free
+[Func]	0x8049800	malloc
+[Func]	0x8049804	puts
+[Func]	0x8049808	__libc_start_main
+[Func]	0x804980c	__imp___gmon_start__
++ Functions: 25
++ Instructions: 205
++ Branch instructions: 45
++ Indirect branch instructions: 14
+|-- ret: 9
+|-- jmp: 1
+|-- call: 4
+|-- system call: 0
+|-- call preceded: 4
+
+
+
+
+[Gadget]
+0x080483B3:               call    eax
+Types:                    Jump, MoveReg, StoreMem
+Clobbers:                 ebp, esp
+Functional Max length:    5
+Nop Max length:           0
+Call preceded:            False
+
+[Gadget]
+0x0804853E:               retn
+Types:                    MoveReg, LoadMemJump
+Clobbers:                 eax, ecx, ebp, esp
+Functional Max length:    3
+Nop Max length:           4
+Call preceded:            True
+
+[Gadget]
+0x0804841C:               rep retn
+Types:                    LoadMemJump
+Clobbers:                 ebp, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080483B9:               rep retn
+Types:                    LoadMemJump
+Clobbers:                 ebp, esp
+Functional Max length:    2
+Nop Max length:           3
+Call preceded:            True
+
+[Gadget]
+0x080485A0:               rep retn
+Types:                    MoveReg, AndGadget, OrGadget
+Clobbers:                 
+Functional Max length:    2
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080485B7:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    4
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080482EA:               retn
+Types:                    LoadMemJump
+Clobbers:                 ebx, esp
+Functional Max length:    3
+Nop Max length:           1
+Call preceded:            False
+
+[Gadget]
+0x080483ED:               call    edx
+Types:                    Jump, MoveReg, StoreMem
+Clobbers:                 ebp, esp
+Functional Max length:    6
+Nop Max length:           0
+Call preceded:            False
+
+[Gadget]
+0x0804859C:               retn
+Types:                    LoadMultiple, LoadMemJump
+Clobbers:                 ebx, edi, ebp, esi, esp
+Functional Max length:    6
+Nop Max length:           1
+Call preceded:            True
+
+[Gadget]
+0x08048440:               call    edx
+Types:                    Jump, MoveReg, StoreMem
+Clobbers:                 ebp, esp
+Functional Max length:    5
+Nop Max length:           0
+Call preceded:            False
+
+[Gadget]
+0x080483F3:               rep retn
+Types:                    LoadMemJump
+Clobbers:                 ebp, esp
+Functional Max length:    2
+Nop Max length:           3
+Call preceded:            True
+
++ Functional gadgets: 33
+|-- Fun Max length: 6
+|-- Fun Min length: 0
+|-- Fun Avg length: 2.93
+
++ Nop gadgets(LIMIT=4): 22
+|-- Nop Max length: 6
+|-- Nop Min length: 0
+|-- Nop Avg length: 1.86
+
++ Normal code fragments: 2
+|-- NCF Max length: 6
+|-- NCF Min length: 5
+|-- NCF Avg length: 5.50
